@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typing Test</title>
+    </head>
+    <style>
+        p {
+            padding: 10px;
+        }
+    </style>
+    <body style="font-family:consolas">
+        <h1>Typing Test</h1>
+        <p id="instructions">Press 'start', and then type the paragraph in the text field. The current word you must type will be displayed and will advance automatically. You can press the spacebar if you are used to it, but the words you type must be in the right case and with whatever punctuation accompanies it. The text will NOT advance unless you type each word correctly.</p><br><hr>
+        <p id="timer">0.000 secs</p>
+        <p id="text"></p>
+        <p id="word"> (current word will appear here)</p>
+        <input type="text" id="input"><br><br>
+        <button type="button" onclick="execute()" id="button">Start!</button>
+        <p id="result"></p>
+        
+    </body>
+    <script src="typer.js"></script>
+    <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+
+</html>
